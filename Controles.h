@@ -11,7 +11,6 @@
 #define INPUT_X11  210
 #define INPUT_X12  211
 
-
 #define OPCION1  212
 #define OPCION2  213
 #define OPCION3  214
@@ -87,6 +86,4 @@ void dibuja(HDC hdc, int mov[], POS pos){
             LineTo(hdc, posA[i].x,posA[i].y + 15);
 		}
     }
-
-
 }

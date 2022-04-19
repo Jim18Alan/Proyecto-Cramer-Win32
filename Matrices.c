@@ -98,6 +98,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT Message, WPARAM wParam, LPARAM lParam) 
 			wsprintf(Dato1, "%d", digitosPunto);
 			SetDlgItemText(hwnd,INPUTDIG,Dato1);
 			break;
+			
 		}
 		case WM_COMMAND:{
 			int wmId    = LOWORD(wParam);
